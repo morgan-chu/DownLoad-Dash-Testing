@@ -5,29 +5,34 @@ body {
     margin: 0;
     padding: 0;
   }
-  img {
-    width: 320px;
-    margin-bottom: 30px;
-  }
   /********************* TEXT *********************/
   h1 {
-    margin-top: 50px;
+    margin-top: 25px;
     text-transform: uppercase;
     font-size: 40px;
     color: black;
     text-align: center;
   }
   h2 {
-    margin-top: 50px;
     margin-left: 25px;
     text-transform: uppercase;
     font-size: 24px;
     color: black;
     text-align: left;
   }
+  h3 {
+    margin-left: 25px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: black;
+    text-align: left;
+  }
   p {
     margin-left: 20px;
-    color: white;
+    margin-bottom: 0px;
+    color: black;
   }
   .dropdown-labels {
     margin-left: 20px;
@@ -38,6 +43,10 @@ body {
     margin-left: 20px;
     color: #FFBD59;
     font-weight: bold;
+  }
+  Label {
+    color: black;
+    padding: 1px;
   }
   /********************* SECTIONS *********************/
   #container {
@@ -155,3 +164,40 @@ body {
   #n-slider .rc-slider-dot-active {  
     border-color: #E6E6E6;
   }
+
+  /****************** TABLE ***********************/
+  td,
+th {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 10px;
+}
+
+td {
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #eee;
+}
+
+th[scope="col"] {
+    background-color: #696969;
+    color: #fff;
+}
+
+th[scope="row"] {
+    background-color: #d7d9f2;
+}
+
+caption {
+    padding: 10px;
+    caption-side: bottom;
+}
+
+table {
+    border-collapse: collapse;
+    border: 0px solid rgb(200, 200, 200);
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    font-size: .8rem;
+}
